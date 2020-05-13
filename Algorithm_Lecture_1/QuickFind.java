@@ -20,6 +20,7 @@ public class QuickFind {
     
     
     //change all entries with xy[p] to xy[q] (at most 2N + 2 array accesses)
+    //as
     public void union(int p, int q) {
         int pxy = xy[p];
         int qxy = xy[q];
